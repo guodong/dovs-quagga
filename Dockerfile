@@ -6,3 +6,5 @@ RUN apt install -y libreadline-dev pkg-config
 RUN apt install -y libc-ares-dev
 WORKDIR /quagga-1.2.4
 RUN ./configure --enable-fpm && make && make install
+RUN cp /usr/local/lib/lib* /lib/
+RUN apt install -y vim
