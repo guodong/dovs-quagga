@@ -15,3 +15,4 @@ RUN chmod 640 /etc/quagga/*
 RUN apt install -y python-pip && pip install protobuf pyroute2
 RUN pip install netifaces
 RUN pip install python_arptable
+RUN pip install ryu
