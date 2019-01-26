@@ -16,3 +16,4 @@ RUN apt install -y python-pip && pip install protobuf pyroute2
 RUN pip install netifaces
 RUN pip install python_arptable
 RUN pip install ryu
+RUN pip install grequests
