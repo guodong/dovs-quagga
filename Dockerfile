@@ -17,3 +17,5 @@ RUN pip install netifaces
 RUN pip install python_arptable
 RUN pip install ryu
 RUN pip install grequests
+RUN apt install -y redis-server
+RUN pip install redis
